@@ -22,5 +22,6 @@ class DatabaseSeeder extends Seeder
         // ]);
 
         $this->call(FoldersTableSeeder::class);
+        $this->call(TasksTableSeeder::class);
     }
 }
